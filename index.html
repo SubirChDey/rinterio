@@ -45,80 +45,82 @@
 </head>
 
 <body>
-    <header class="max-w-screen-xl mx-auto px-10">
-        <nav>
-            <div class="navbar bg-base-200">
-                <div class="navbar-start">
-                    <div class="dropdown">
-                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                                stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M4 6h16M4 12h8m-8 6h16" />
-                            </svg>
+    <header class="bg-base-200">
+        <div class="container mx-auto">
+            <nav>
+                <div class="navbar bg-base-200">
+                    <div class="navbar-start">
+                        <div class="dropdown">
+                            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M4 6h16M4 12h8m-8 6h16" />
+                                </svg>
+                            </div>
+                            <ul tabindex="0"
+                                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                                <li><a>Home</a></li>
+                                <li><a>Services</a></li>
+                                <li><a>Portfolio</a></li>
+                                <li><a>Blogs</a></li>
+                                <li><a>Contact Us</a></li>
+                            </ul>
                         </div>
-                        <ul tabindex="0"
-                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                            <li><a>Home</a></li>
+                        <!-- <div>
+                            <a class="btn btn-ghost text-3xl font-bold"> <i
+                                    class="fa-solid fa-arrow-right -rotate-45 bg-[#ABEF5F] rounded-full p-1"></i>
+                                Rinterio</a>
+                        </div> -->
+                        <div class="flex justify-center items-center">
+                            <i class="fa-solid fa-arrow-right -rotate-45 bg-[#ABEF5F] rounded-full p-2"></i>
+                            <a class="btn btn-ghost text-3xl font-bold">Rinterio</a>
+                        </div>
+                    </div>
+                    <div class="navbar-center hidden lg:flex">
+                        <ul class="menu menu-horizontal px-1 text-[#737373]">
+                            <li class="font-bold"><a>Home</a></li>
                             <li><a>Services</a></li>
                             <li><a>Portfolio</a></li>
                             <li><a>Blogs</a></li>
                             <li><a>Contact Us</a></li>
                         </ul>
                     </div>
-                    <!-- <div>
-                        <a class="btn btn-ghost text-3xl font-bold"> <i
-                                class="fa-solid fa-arrow-right -rotate-45 bg-[#ABEF5F] rounded-full p-1"></i>
-                            Rinterio</a>
-                    </div> -->
-                    <div class="flex justify-center items-center">
-                        <i class="fa-solid fa-arrow-right -rotate-45 bg-[#ABEF5F] rounded-full p-2"></i>
-                        <a class="btn btn-ghost text-3xl font-bold">Rinterio</a>
+                    <div class="navbar-end hidden lg:block gap-4">
+                        <i class="fa-solid fa-magnifying-glass rounded-full bg-white p-3"></i>
+                        <i class="fa-solid fa-cart-shopping rounded-full bg-white p-3"></i>
+                        <a class="btn bg-prcolor rounded-3xl font-bold text-lg">Book Consult <i
+                                class="fa-solid fa-arrow-right -rotate-45 bg-black text-white rounded-full p-2"></i></a>
                     </div>
                 </div>
-                <div class="navbar-center hidden lg:flex">
-                    <ul class="menu menu-horizontal px-1 text-[#737373]">
-                        <li class="font-bold"><a>Home</a></li>
-                        <li><a>Services</a></li>
-                        <li><a>Portfolio</a></li>
-                        <li><a>Blogs</a></li>
-                        <li><a>Contact Us</a></li>
-                    </ul>
-                </div>
-                <div class="navbar-end hidden lg:block gap-4">
-                    <i class="fa-solid fa-magnifying-glass rounded-full bg-white p-3"></i>
-                    <i class="fa-solid fa-cart-shopping rounded-full bg-white p-3"></i>
-                    <a class="btn bg-prcolor rounded-3xl font-bold text-lg">Book Consult <i
-                            class="fa-solid fa-arrow-right -rotate-45 bg-black text-white rounded-full p-2"></i></a>
-                </div>
-            </div>
-        </nav>
-
-        <!-- Banner section  -->
-        <section class="bg-base-200">
-            <div class="banner ">
-                <div class="hero min-h-screen">
-                    <div class="hero-content text-center">
-                        <div class="max-w">
-                            <div class="flex justify-center">
-                                <img src="assets/banner.png" alt="">
+            </nav>
+    
+            <!-- Banner section  -->
+            <section class="">
+                <div class="banner ">
+                    <div class="hero min-h-screen">
+                        <div class="hero-content text-center">
+                            <div class="max-w">
+                                <div class="flex justify-center">
+                                    <img src="assets/banner.png" alt="">
+                                </div>
+                                <h1 class="text-3xl lg:text-5xl font-bold">A barn house of this design has a striking appearance</h1>
+                                <p class="py-6 ">
+                                    The barn house captivates with its blend of rustic charm and modern sophistication,
+                                    featuring weathered wood, sleek metal accents, and large windows that flood the space
+                                    with
+                                    natural light.
+                                </p>
+                                <button
+                                    class="btn bg-sccolor px-6 border-1 border-[#ABEF5F] rounded-full text-xl font-bold w-full lg:w-auto">View
+                                    Details <i
+                                        class="fa-solid fa-arrow-right -rotate-45 bg-prcolor text-black rounded-full p-2"></i></button>
                             </div>
-                            <h1 class="text-5xl font-bold">A barn house of this design has a striking appearance</h1>
-                            <p class="py-6 ">
-                                The barn house captivates with its blend of rustic charm and modern sophistication,
-                                featuring weathered wood, sleek metal accents, and large windows that flood the space
-                                with
-                                natural light.
-                            </p>
-                            <button
-                                class="btn bg-sccolor px-6 border-1 border-[#ABEF5F] rounded-full text-xl font-bold">View
-                                Details <i
-                                    class="fa-solid fa-arrow-right -rotate-45 bg-prcolor text-black rounded-full p-2"></i></button>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
+        </div>
 
 
     </header>
@@ -130,7 +132,7 @@
                     <div class="hero-content grid grid-cols-1 lg:grid-cols-2 gap-10">
 
                         <div>
-                            <img src="assets/Vector.png" alt="">
+                            <img class="hidden lg:block" src="assets/Vector.png" alt="">
                             <button class="btn bg-white rounded-full px-6"> <i
                                     class="fa-solid fa-arrow-right text-black rounded-full p-2"></i>About Us</button>
                             <h1 class="text-5xl font-bold">We design thoughtful, liveable spaces</h1>
@@ -224,7 +226,7 @@
                             <h4 class="text-2xl font-bold">Commercial</h4>
                             <p>The barn house captivates with its blend of rustic charm and modern. The barn house
                                 captivates with its blend of rustic charm and modern .</p>
-                            <button>View Details <i
+                            <button class="font-bold">View Details <i
                                     class="fa-solid fa-arrow-right -rotate-45 bg-prcolor text-black rounded-full p-2"></i></button>
                         </div>
 
@@ -246,7 +248,7 @@
                             <h4 class="text-2xl font-bold">Commercial</h4>
                             <p>The barn house captivates with its blend of rustic charm and modern. The barn house
                                 captivates with its blend of rustic charm and modern .</p>
-                            <button>View Details <i
+                            <button class="font-bold">View Details <i
                                     class="fa-solid fa-arrow-right -rotate-45 bg-prcolor text-black rounded-full p-2"></i></button>
                         </div>
 
@@ -256,6 +258,18 @@
 
 
                     </div>
+                </div>
+
+                <!-- trying -->
+                <div class="flex flex-col lg:hidden">
+                    <div class="border-2 border-gray-200 rounded-3xl">
+                        <img class="p-4 w-full" src="./assets/img3.png" alt="">
+                    </div>
+                    <div class="border-2 border-gray-200 rounded-3xl">
+                        <img class="p-4 w-full" src="./assets/img5.png" alt="">
+
+                    </div>
+
                 </div>
             </div>
         </section>
